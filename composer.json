@@ -1,7 +1,19 @@
 {
+    "name": "thiiagoms/pretty-print",
+    "description": "Pretty CLI print",
+    "authors": [
+        {
+            "name": "Thiago Silva AKA thiiagoms",
+            "email": "thiagom.devsec@gmail.com",
+            "homepage": "https://thiiagoms.github.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
     "autoload": {
         "psr-4": {
-            "Src\\": "src/",
+            "PrettyPrint\\": "src/",
             "Tests\\": "tests/"
         }
     },
