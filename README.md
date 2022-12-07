@@ -37,5 +37,17 @@ pretty-print $ php example.php
 01 - Install package:
 ```bash
 your-project $ composer require --dev thiiagoms/pretty-print
-your-project $ 
+```
+02 - Example:
+```php
+<?php
+
+use PrettyPrint\Printer;
+
+require_once __DIR__ . '/vendor/autoload.php';
+
+Printer::info('Test');
+Printer::success('Test');
+Printer::warning('Test');
+Printer::error('Test');
 ```
